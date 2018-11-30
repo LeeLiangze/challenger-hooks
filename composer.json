@@ -1,5 +1,5 @@
 {
-    "name": "larapack/challenger-hooks",
+    "name": "chg/challenger-hooks",
     "description": "Hooks integrated in Voyager",
     "keywords": ["laravel", "hooks", "voyager"],
     "license": "MIT",
@@ -11,18 +11,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Larapack\\ChallengerHooks\\": "src/"
+            "Chg\\ChallengerHooks\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Larapack\\ChallengerHooks\\Tests\\": "tests/"
+            "Chg\\ChallengerHooks\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Larapack\\ChallengerHooks\\VoyagerHooksServiceProvider"
+                "Chg\\ChallengerHooks\\VoyagerHooksServiceProvider"
             ]
         }
     }
