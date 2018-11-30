@@ -11,18 +11,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Chg\\ChallengerHooks\\": "src/"
+            "CHG\\ChallengerHooks\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Chg\\ChallengerHooks\\Tests\\": "tests/"
+            "CHG\\ChallengerHooks\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Chg\\ChallengerHooks\\VoyagerHooksServiceProvider"
+                "CHG\\ChallengerHooks\\VoyagerHooksServiceProvider"
             ]
         }
     }
