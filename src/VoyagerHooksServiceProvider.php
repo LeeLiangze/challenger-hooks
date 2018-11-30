@@ -1,6 +1,6 @@
 <?php
 
-namespace CHG\VoyagerHooks;
+namespace CHG\ChallengerHooks;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Facades\Artisan;

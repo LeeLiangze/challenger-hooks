@@ -1,6 +1,6 @@
 <?php
 
-namespace CHG\VoyagerHooks\Controllers;
+namespace CHG\ChallengerHooks\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
