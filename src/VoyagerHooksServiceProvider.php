@@ -1,6 +1,6 @@
 <?php
 
-namespace Larapack\VoyagerHooks;
+namespace CHG\VoyagerHooks;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Facades\Artisan;

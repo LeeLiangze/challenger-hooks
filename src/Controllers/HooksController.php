@@ -1,6 +1,6 @@
 <?php
 
-namespace Larapack\VoyagerHooks\Controllers;
+namespace CHG\VoyagerHooks\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
