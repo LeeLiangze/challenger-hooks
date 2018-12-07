@@ -70,7 +70,7 @@ class VoyagerHooksServiceProvider extends ServiceProvider
 
     public function addHookRoute($router)
     {
-        $namespacePrefix = 'CHG\\ChallengerHooks\\\\Controllers\\';
+        $namespacePrefix = '\\CHG\\ChallengerHooks\\Controllers\\';
 
         $router->get('hooks', ['uses' => $namespacePrefix.'HooksController@index', 'as' => 'hooks']);
         $router->get('hooks/{name}/enable', ['uses' => $namespacePrefix.'HooksController@enable', 'as' => 'hooks.enable']);
